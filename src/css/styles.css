@@ -24,24 +24,32 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* ul.gallery {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+section {
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 0 auto;
+}
+
+.page-2 {
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.home {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
+  color: #000;
 }
 
-ul.gallery li {
-  width: calc(33.33% - 10px); 
-  margin-bottom: 20px;
+.home-2 {
+  display: flex;
+  justify-content: center;
 }
 
-ul.gallery li img {
-  width: 100%;
-  height: auto;
-} */
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
 
 .gallery {
   display: flex;
@@ -132,4 +140,15 @@ button {
 
 button:hover {
   background-color: #6c8cff;
+}
+
+.simple-lightbox .slbArrow {
+  background-color: #3498db; /* Синій колір фону кнопок */
+  color: #fff; /* Білий колір тексту */
+  font-size: 20px; /* Збільшений розмір шрифту */
+  width: 50px; /* Збільшена ширина кнопок */
+  height: 50px; /* Збільшена висота кнопок */
+  line-height: 50px; /* Вирівнювання тексту по вертикалі */
+  border-radius: 50%; /* Круглість кнопок */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тінь для кнопок */
 }

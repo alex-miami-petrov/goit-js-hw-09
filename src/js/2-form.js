@@ -26,7 +26,7 @@ form.addEventListener('submit', function (e) {
   e.preventDefault();
 
   if (formData.email.trim() === '' || formData.message.trim() === '') {
-    alert('Fill please all fields');
+    alert('Please, fill all fields');
     return;
   }
 
