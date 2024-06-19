@@ -38,12 +38,12 @@ section {
 .home {
   display: flex;
   justify-content: flex-end;
-  color: #000;
 }
 
 .home-2 {
   display: flex;
   justify-content: center;
+  padding-right: 650px;
 }
 
 .nav-list {
