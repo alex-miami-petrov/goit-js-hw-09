@@ -23,3 +23,33 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* ul.gallery {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul.gallery li {
+  width: calc(33.33% - 10px); 
+  margin-bottom: 20px;
+}
+
+ul.gallery li img {
+  width: 100%;
+  height: auto;
+} */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+ul.gallery li {
+  width: calc((100% - 24px) / 4);
+}
